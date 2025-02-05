@@ -7,7 +7,7 @@ const app=express()
 
 app.use(cors())
 app.use(express.json())
-await connectDB()
+ connectDB()
 
 app.post("/saveNote", async (req,res)=>{
     const data= req.body
