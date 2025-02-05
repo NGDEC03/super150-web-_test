@@ -27,7 +27,7 @@ function App() {
   return (
     <>
      <div className='absolute right-36 top-4'>
-        <button className='border-2 rounded-lg p-2 bg-blue-500 text-white hover:bg-blue-700 transition duration-300' onClick={sortNotes}>Register</button>
+        <button className='border-2 rounded-lg p-2 bg-blue-500 text-white hover:bg-blue-700 transition duration-300'>Register</button>
       </div>
       <div className='absolute right-4 top-4'>
         <button className='border-2 rounded-lg p-2 bg-blue-500 text-white hover:bg-blue-700 transition duration-300' onClick={sortNotes}>Sort Notes !!</button>
